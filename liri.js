@@ -1,26 +1,18 @@
 // Read and set environment variables
 require("dotenv").config();
 
-//vars
-// var keys = require("./keys.js");
-// var fs = require("fs");
+//VARS
 var request = require("request");
 var fs = require("fs");
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
-//creates log.txt file
-// var filename = './log.txt';
-//NPM module used to write output to console and log.txt simulatneously
-//var log = require('simple-node-logger').createSimpleFileLogger(filename);
-//log.setLevel('all');
+//vars to capture user inputs.
+var userOption = process.argv[2]; 
+var inputParameter = process.argv[3];
 
-//argv[2] chooses users actions; argv[3] is input parameter, ie; movie title
-var userOption = process.argv[2]; //need to change this later//
-var inputParameter = process.argv[3]; //need to change this later//
-processCommands(userOption, inputParameter);
-
-function processCommands (userOption, inputParameter){
+//FUNCTIONS
+function UserInputs (userOption, inputParameter){
     switch (userOption) {
     case 'concert-this':
         showConcertInfo(inputParameter);
@@ -35,21 +27,20 @@ function processCommands (userOption, inputParameter){
         showSomeInfo();
         break;
     default: 
-            console.log("Invalid command. Please type any of the following commands: \nconcert-this \nspotify-this-song \nmovie-this \ndo-what-it-says")
+        console.log("Invalid Option. Please type any of the following options: \nconcert-this \nspotify-this-song \nmovie-this \ndo-what-it-says")
     }
 }
+
+//Funtion for Concert Info: Bands in Town
 function showConcertInfo(inputParameter){
     var queryUrl = "https://rest.bandsintown.com/artists/" + inputParameter + "/events?app_id=codingbootcamp";
     request(queryUrl, function(error, response, body) {
-
-        // If the request is successful
+    // If the request is successful
     if (!error && response.statusCode === 200) {
-      
         var concerts = JSON.parse(body);
-        //console.log(JSON.stringify(concerts,null,2));
         for (var i = 0; i < concerts.length; i++) {  
             console.log("**********EVENT INFO*********");  
-            fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");
+            fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");//Append in log.txt file
             console.log(i);
             fs.appendFileSync("log.txt", i+"\n");
             console.log("Name of the Venue: " + concerts[i].venue.name);
@@ -61,18 +52,16 @@ function showConcertInfo(inputParameter){
             console.log("*****************************");
             fs.appendFileSync("log.txt", "*****************************"+"\n");
         }
-
     } else{
       console.log('Error occurred.');
     }
-
 });}
 
+//Funtion for Music Info: Spotify
 function showSongInfo(inputParameter) {
     if (inputParameter === undefined) {
-        inputParameter = "The%20Sign";
+        inputParameter = "The Sign"; //default Song
     }
-
     spotify.search(
         {
             type: "track",
@@ -83,21 +72,20 @@ function showSongInfo(inputParameter) {
                 console.log("Error occurred: " + err);
                 return;
             }
-            //console.log(JSON.stringify(data,null,2));
             var songs = data.tracks.items;
 
-             for (var i = 0; i < songs.length; i++) {
+            for (var i = 0; i < songs.length; i++) {
                 console.log("**********SONG INFO*********");
                 fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
                 console.log(i);
                 fs.appendFileSync("log.txt", i +"\n");
-                console.log("song name: " + songs[i].name);
+                console.log("Song name: " + songs[i].name);
                 fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
-                console.log("preview song: " + songs[i].preview_url);
+                console.log("Preview song: " + songs[i].preview_url);
                 fs.appendFileSync("log.txt", "preview song: " + songs[i].preview_url +"\n");
-                console.log("album: " + songs[i].album.name);
+                console.log("Album: " + songs[i].album.name);
                 fs.appendFileSync("log.txt", "album: " + songs[i].album.name + "\n");
-                console.log("artist(s): " + songs[i].artists[0].name);
+                console.log("Artist(s): " + songs[i].artists[0].name);
                 fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[0].name + "\n");
                 console.log("*****************************");  
                 fs.appendFileSync("log.txt", "*****************************\n");
@@ -106,11 +94,8 @@ function showSongInfo(inputParameter) {
     );
 };
 
-
-
+//Funtion for Movie Info: OMDB
 function showMovieInfo(inputParameter){
-   
-    
     if (inputParameter === undefined) {
         inputParameter = "Mr. Nobody"
         console.log("-----------------------");
@@ -119,18 +104,12 @@ function showMovieInfo(inputParameter){
         fs.appendFileSync("log.txt", "If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/" +"\n");
         console.log("It's on Netflix!");
         fs.appendFileSync("log.txt", "It's on Netflix!\n");
-        
     }
-    
     var queryUrl = "http://www.omdbapi.com/?t=" + inputParameter + "&y=&plot=short&apikey=b3c0b435";
     request(queryUrl, function(error, response, body) {
-
-        // If the request is successful
+    // If the request is successful
     if (!error && response.statusCode === 200) {
-      
         var movies = JSON.parse(body);
-        //console.log(JSON.stringify(movies,null,2));
-          
         console.log("**********MOVIE INFO*********");  
         fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
         console.log("Title: " + movies.Title);
@@ -157,7 +136,7 @@ function showMovieInfo(inputParameter){
 
 });}
 
-
+//function to get proper Rotten Tomatoes Rating
 function getRottenTomatoesRatingObject (data) {
     return data.Ratings.find(function (item) {
        return item.Source === "Rotten Tomatoes";
@@ -168,12 +147,16 @@ function getRottenTomatoesRatingObject (data) {
     return getRottenTomatoesRatingObject(data).Value;
   }
 
+//function for reading out of random.txt file  
 function showSomeInfo(){
 	fs.readFile('random.txt', 'utf8', function(err, data){
 		if (err){ 
 			return console.log(err);
 		}
 		var dataArr = data.split(',');
-		processCommands(dataArr[0], dataArr[1]);
+		UserInputs(dataArr[0], dataArr[1]);
 	});
 }
+
+//Execite function
+UserInputs(userOption, inputParameter);
