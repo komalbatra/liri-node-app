@@ -11,6 +11,9 @@ var spotify = new Spotify(keys.spotify);
 var userOption = process.argv[2]; 
 var inputParameter = process.argv[3];
 
+//Execute function
+UserInputs(userOption, inputParameter);
+
 //FUNCTIONS
 function UserInputs (userOption, inputParameter){
     switch (userOption) {
@@ -153,10 +156,8 @@ function showSomeInfo(){
 		if (err){ 
 			return console.log(err);
 		}
-		var dataArr = data.split(',');
-		UserInputs(dataArr[0], dataArr[1]);
+        var dataArr = data.split(',');
+        UserInputs(dataArr[0], dataArr[1]);
 	});
 }
 
-//Execite function
-UserInputs(userOption, inputParameter);
