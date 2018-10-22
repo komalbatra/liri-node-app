@@ -7,10 +7,4 @@ exports.spotify = {
 };
 
 
-OMBD:
 
-Here is your key: b3c0b435
-
-Please append it to all of your API requests,
-
-OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=b3c0b435
