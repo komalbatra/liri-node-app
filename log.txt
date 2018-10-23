@@ -549,3 +549,401 @@ preview song: https://p.scdn.co/mp3-preview/bb5d73d1bfe8a8b38cd5278112c702259946
 album: I Want It That Way
 artist(s): Kyle Olthoff
 *****************************
+**********EVENT INFO*********
+0
+Name of the Venue: Mandalay Bay Events Center
+Venue Location: Las Vegas
+Date of the Event: 2018-12-30T19:00:48
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: Mandalay Bay Events Center
+Venue Location: Las Vegas
+Date of the Event: 2018-12-31T19:00:28
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Brisbane Entertainment Centre
+Venue Location: Brisbane
+Date of the Event: 2019-02-19T19:00:50
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: Qudos Bank Arena
+Venue Location: Sydney
+Date of the Event: 2019-02-21T19:00:51
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: Rod Laver Arena
+Venue Location: Melbourne
+Date of the Event: 2019-02-22T19:00:13
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: Tokyo Dome
+Venue Location: Tokyo
+Date of the Event: 2019-02-25T19:00:23
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: Gocheok Sky Dome
+Venue Location: Seoul
+Date of the Event: 2019-02-27T19:00:33
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: TBA
+Venue Location: Kaohsiung City
+Date of the Event: 2019-03-01T19:00:36
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: TBA
+Venue Location: Macau
+Date of the Event: 2019-03-03T19:00:44
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: SM Mall Of Asia
+Venue Location: Manila
+Date of the Event: 2019-03-05T19:00:07
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: NATIONAL STADIUM
+Venue Location: Singapore
+Date of the Event: 2019-03-07T19:00:41
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: CHALLENGER HALL
+Venue Location: Bangkok
+Date of the Event: 2019-03-09T19:00:34
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Mollenpark
+Venue Location: Aalborg
+Date of the Event: 2019-06-01T19:00:44
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: Lanxess Arena
+Venue Location: Cologne
+Date of the Event: 2019-06-03T19:00:11
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: O2 ARENA
+Venue Location: Prague
+Date of the Event: 2019-06-05T19:00:34
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Tauron Arena
+Venue Location: Kraków
+Date of the Event: 2019-06-06T19:00:29
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Ziggo Dome
+Venue Location: Amsterdam
+Date of the Event: 2019-06-10T19:00:09
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: AccorHotels Arena
+Venue Location: Paris
+Date of the Event: 2019-06-11T19:00:06
+*****************************
+**********SONG INFO*********
+0
+song name: Hero
+preview song: https://p.scdn.co/mp3-preview/a86af6cfc8543b4acfdb57134147067550b1ef9f?cid=7bd084ad051743f68035613487473eb8
+album: Awake
+artist(s): Skillet
+*****************************
+**********SONG INFO*********
+1
+song name: Juke Box Hero
+preview song: https://p.scdn.co/mp3-preview/596f26d42b94be4ef06d7b63f4a02cbfd3e40c48?cid=7bd084ad051743f68035613487473eb8
+album: 4 [Expanded]
+artist(s): Foreigner
+*****************************
+**********SONG INFO*********
+2
+song name: Hero
+preview song: null
+album: Escape
+artist(s): Enrique Iglesias
+*****************************
+**********SONG INFO*********
+3
+song name: Hero
+preview song: https://p.scdn.co/mp3-preview/3d1f4e7938a250e489290ca27e1ebc9b511c1cf4?cid=7bd084ad051743f68035613487473eb8
+album: Loma Vista
+artist(s): Family of the Year
+*****************************
+**********SONG INFO*********
+4
+song name: Hero
+preview song: https://p.scdn.co/mp3-preview/7a73abc50d367941e3f6ef6018ac2d7573e1ebbc?cid=7bd084ad051743f68035613487473eb8
+album: Bawskee
+artist(s): Comethazine
+*****************************
+**********SONG INFO*********
+5
+song name: Death of a Hero
+preview song: https://p.scdn.co/mp3-preview/eaad275df098c2b1a38252d38f156d1b9461ce7c?cid=7bd084ad051743f68035613487473eb8
+album: Death of a Hero
+artist(s): Alec Benjamin
+*****************************
+**********SONG INFO*********
+6
+song name: My Hero
+preview song: https://p.scdn.co/mp3-preview/ea1fb01ec4f28f204b1591c2953d1f6c886941e2?cid=7bd084ad051743f68035613487473eb8
+album: The Colour And The Shape (Expanded Edition)
+artist(s): Foo Fighters
+*****************************
+**********SONG INFO*********
+7
+song name: Hero
+preview song: https://p.scdn.co/mp3-preview/cc03494b6954237706d6f2ac7b9ce189014f840a?cid=7bd084ad051743f68035613487473eb8
+album: Music Box
+artist(s): Mariah Carey
+*****************************
+**********SONG INFO*********
+8
+song name: I Could Use a Love Song
+preview song: https://p.scdn.co/mp3-preview/f03fca82860612598d076212ee8d25e5fb4c1629?cid=7bd084ad051743f68035613487473eb8
+album: HERO (Deluxe Edition)
+artist(s): Maren Morris
+*****************************
+**********SONG INFO*********
+9
+song name: Rich
+preview song: https://p.scdn.co/mp3-preview/a8e201c35908e1a45e8022267f7738e92837c31d?cid=7bd084ad051743f68035613487473eb8
+album: HERO (Deluxe Edition)
+artist(s): Maren Morris
+*****************************
+**********SONG INFO*********
+10
+song name: My Church
+preview song: https://p.scdn.co/mp3-preview/93d7324822b2739d82600d3e85c0ab0d81291d12?cid=7bd084ad051743f68035613487473eb8
+album: HERO (Deluxe Edition)
+artist(s): Maren Morris
+*****************************
+**********SONG INFO*********
+11
+song name: Holding Out for a Hero
+preview song: https://p.scdn.co/mp3-preview/923bf281b264def1f4466ac48ab8bf1ceb1acd62?cid=7bd084ad051743f68035613487473eb8
+album: Secret Dreams And Forbidden Fire
+artist(s): Bonnie Tyler
+*****************************
+**********SONG INFO*********
+12
+song name: HERO
+preview song: https://p.scdn.co/mp3-preview/f20609ec6ec73669742db3c3d8b4a2e044697363?cid=7bd084ad051743f68035613487473eb8
+album: RUSH
+artist(s): Monsta X
+*****************************
+**********SONG INFO*********
+13
+song name: Short Change Hero
+preview song: https://p.scdn.co/mp3-preview/326c6ac01505ec37d81a5176353430c9ac0dcf04?cid=7bd084ad051743f68035613487473eb8
+album: The House That Dirt Built
+artist(s): The Heavy
+*****************************
+**********SONG INFO*********
+14
+song name: 80s Mercedes
+preview song: https://p.scdn.co/mp3-preview/5a1c0886edc7a2b25a3abd41ff5bb4aba6ad6098?cid=7bd084ad051743f68035613487473eb8
+album: HERO (Deluxe Edition)
+artist(s): Maren Morris
+*****************************
+**********SONG INFO*********
+15
+song name: Zero To Hero - 『ヘラクレス』より
+preview song: null
+album: Hercules (Original Motion Picture Soundtrack)
+artist(s): Chorus - Hercules
+*****************************
+**********SONG INFO*********
+16
+song name: Hero
+preview song: null
+album: StarStruck
+artist(s): Christopher Wilde
+*****************************
+**********SONG INFO*********
+17
+song name: Hero Of War
+preview song: null
+album: Appeal To Reason
+artist(s): Rise Against
+*****************************
+**********SONG INFO*********
+18
+song name: Hero
+preview song: null
+album: Good For You
+artist(s): Aminé
+*****************************
+**********SONG INFO*********
+19
+song name: My Hero
+preview song: https://p.scdn.co/mp3-preview/46145f46a9246e10f645929311a5a5ce8bd01d27?cid=7bd084ad051743f68035613487473eb8
+album: Greatest Hits
+artist(s): Foo Fighters
+*****************************
+**********MOVIE INFO*********
+Title: Titanic
+Release Year: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 89%
+Country of Production: USA
+Language: English, Swedish
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+*****************************
+**********SONG INFO*********
+0
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=7bd084ad051743f68035613487473eb8
+album: The Hits--Chapter One
+artist(s): Backstreet Boys
+*****************************
+**********SONG INFO*********
+1
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=7bd084ad051743f68035613487473eb8
+album: Millennium
+artist(s): Backstreet Boys
+*****************************
+**********SONG INFO*********
+2
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=7bd084ad051743f68035613487473eb8
+album: Covers Part IV
+artist(s): Anthem Lights
+*****************************
+**********SONG INFO*********
+3
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=7bd084ad051743f68035613487473eb8
+album: Beautiful Dreams
+artist(s): Tyler and Mark
+*****************************
+**********SONG INFO*********
+4
+song name: I Want It That Way
+preview song: null
+album: Punk Goes Pop
+artist(s): Dynamite Boy
+*****************************
+**********SONG INFO*********
+5
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=7bd084ad051743f68035613487473eb8
+album: I Want It That Way
+artist(s): Manuel Costa
+*****************************
+**********SONG INFO*********
+6
+song name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+preview song: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=7bd084ad051743f68035613487473eb8
+album: Poodle Hat
+artist(s): "Weird Al" Yankovic
+*****************************
+**********SONG INFO*********
+7
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=7bd084ad051743f68035613487473eb8
+album: 90 Sweet 90s Hits!
+artist(s): Backstreet Boys
+*****************************
+**********SONG INFO*********
+8
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=7bd084ad051743f68035613487473eb8
+album: NKOTBSB
+artist(s): Backstreet Boys
+*****************************
+**********SONG INFO*********
+9
+song name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+preview song: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=7bd084ad051743f68035613487473eb8
+album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+artist(s): Glee Cast
+*****************************
+**********SONG INFO*********
+10
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=7bd084ad051743f68035613487473eb8
+album: Cover Sessions, Vol. 2
+artist(s): Boyce Avenue
+*****************************
+**********SONG INFO*********
+11
+song name: I Want It That Way
+preview song: null
+album: I Want It That Way
+artist(s): Steel Panther
+*****************************
+**********SONG INFO*********
+12
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=7bd084ad051743f68035613487473eb8
+album: I Want It That Way
+artist(s): Landon Austin & Julia Sheer
+*****************************
+**********SONG INFO*********
+13
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=7bd084ad051743f68035613487473eb8
+album: Nu Funk
+artist(s): Scary Pockets
+*****************************
+**********SONG INFO*********
+14
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=7bd084ad051743f68035613487473eb8
+album: Selfies on Kodachrome
+artist(s): Scott Bradlee's Postmodern Jukebox
+*****************************
+**********SONG INFO*********
+15
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=7bd084ad051743f68035613487473eb8
+album: NOW That's What I Call 90s Pop
+artist(s): Backstreet Boys
+*****************************
+**********SONG INFO*********
+16
+song name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+preview song: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=7bd084ad051743f68035613487473eb8
+album: The Essential "Weird Al" Yankovic
+artist(s): "Weird Al" Yankovic
+*****************************
+**********SONG INFO*********
+17
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=7bd084ad051743f68035613487473eb8
+album: #90s Update
+artist(s): #90s Update
+*****************************
+**********SONG INFO*********
+18
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=7bd084ad051743f68035613487473eb8
+album: PMJ Is For Lovers: The Love Song Collection
+artist(s): Scott Bradlee's Postmodern Jukebox
+*****************************
+**********SONG INFO*********
+19
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/bb5d73d1bfe8a8b38cd5278112c7022599464c67?cid=7bd084ad051743f68035613487473eb8
+album: I Want It That Way
+artist(s): Kyle Olthoff
+*****************************
